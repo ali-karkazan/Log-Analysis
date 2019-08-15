@@ -8,9 +8,9 @@ The project demonstrates my skills in databases and SQL specifically PostgreSQL,
 3 - On which days did more than 1% of requests lead to errors?
 
 ### Software required to run the program:
-[Python](https://www.python.org/)
-[Vagrant](https://www.vagrantup.com/)
-[VirtualBox](https://www.virtualbox.org/)
+- [Python](https://www.python.org/)
+- [Vagrant](https://www.vagrantup.com/)
+- [VirtualBox](https://www.virtualbox.org/)
 
 ### Setting up the project:
 1 - install Vagrant and virtualBox
