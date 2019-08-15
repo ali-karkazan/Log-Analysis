@@ -25,7 +25,6 @@ def log_analysis():
     for n in views:
         print(' ' + str(n[1]) + " " + str(n[0]) + " views\n")
 
-
     # Question 2- the author of all time
     author_of_all_time = """select count(*) as author_of_all_time,
                         name from author_name
@@ -38,13 +37,13 @@ def log_analysis():
         print(' ' + str(i[1]) + " " + str(i[0]) + " views\n")
 
     # Question 3 - The day more than 1% of requests lead to errors
-    error_count = """ select day,percentage from error_rate 
+    error_count = """ select day,percentage from error_rate
     where percentage > 1.0 order by day;"""
 
     c.execute(error_count)
     error_count = c.fetchall()
 
-    print('\n The day more than 1% of requests lead to errors \n')
+    print('\n The day more than 1% of requests lead to errors: \n')
     for e in error_count:
         print(' ' + str(e[0]) + " " + str(e[1]) + "%" + "\n")
 
